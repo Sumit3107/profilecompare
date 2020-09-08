@@ -1,0 +1,16 @@
+#header {
+  background-color: #282829;
+  text-align: center; }
+
+#heading {
+  color: white; }
+
+#inputcontainer {
+  padding: 2%;
+  background-color: #4c4c4d; }
+
+#userlabel {
+  color: white; }
+
+Button {
+  margin: 2%; }

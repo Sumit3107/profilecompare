@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import {Route, Switch, Redirect} from "react-router-dom"
+import Compare from "./components/compare"
+import Profile from "./components/profile"
+export const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Compare />
+      <Switch>
+        <Route path="/home/:username" component={Profile} />
+        <Redirect from="/" to="/home" />
+      </Switch>
+      {/* <Profile /> */}
     </div>
   );
-}
+};
 
 export default App;
