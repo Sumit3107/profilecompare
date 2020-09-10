@@ -13,7 +13,7 @@ export const profile = (props) => {
         <Row justify="center">
         {props.user.user.map((user) => {
           return (
-              <Col span={8}>
+              <Col xs={{ span: 22, offset: 2 }} sm={{ span: 10, offset: 2 }} md={{ span: 6, offset: 2 }}>
               <Card hoverable title="Profile Info" bordered={false} style={{ width: 300,marginBottom:'5%' }} id="Cards">
                 <h4><strong>Username: </strong>{user.login}</h4>
                 <p><strong>Followers: </strong>{user.followers}</p>
