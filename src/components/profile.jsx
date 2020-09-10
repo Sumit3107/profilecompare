@@ -8,7 +8,7 @@ export const profile = (props) => {
   } else if (props.user.user.length>0) {
     return (
       <div id="profileback">
-        <Row justify="center"><h1 style={{color:"white" }}>Ranked according Followers</h1></Row>
+        <Row justify="center"><h1 style={{color:"white" }}>Ranked according to Followers</h1></Row>
         <Row justify="center"><p style={{color:"white" ,marginBottom:"5%"}}>More no. of followers results in top rank.</p></Row>
         <Row justify="center">
         {props.user.user.map((user) => {
