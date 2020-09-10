@@ -4,11 +4,11 @@ import {Link } from "react-router-dom"
 import { UserOutlined } from "@ant-design/icons";
 import "../css/main.css";
 import "antd/dist/antd.css";
-export const Compare = () => {
+export const Compare = (props) => {
   const { Header } = Layout;
-  const [username,setusername]=useState("");
-  const handleClick=(username)=>{
-      alert("Username is "+ username);
+  const [username,setusername]=useState([]);
+  const submitProfile=(username)=>{
+      props.fetchuserinfo(username)
   }
   return (
     <div className="App">
@@ -27,14 +27,13 @@ export const Compare = () => {
                   name="username"
                   placeholder="Github UserName"
                   onChange={(e)=>setusername(e.target.value)}
-                  prefix={<UserOutlined 
-                  required/>}
+                  prefix={<UserOutlined />}
                 />
                 <Divider />
                 <Row justify="center">
                   <Form.Item>
                     <Link to={`/home/${username}`}>
-                        <Button type="primary" htmlType="submit" onClick={()=>handleClick(username)}>
+                        <Button type="primary" htmlType="submit" onClick={()=>submitProfile(username)} >
                             Submit
                         </Button>
                     </Link>

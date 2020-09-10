@@ -12,5 +12,9 @@
 #userlabel {
   color: white; }
 
-Button {
-  margin: 2%; }
+#profileback {
+  background-color: #a7a6a6;
+  padding: 5%; }
+
+#Cards {
+  border-radius: 8px; }
