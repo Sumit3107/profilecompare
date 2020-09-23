@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/sumit3107.github.io/profilecompare/static/css/main.9ec8fe34.chunk.css",
-    "main.js": "/sumit3107.github.io/profilecompare/static/js/main.9f92bb12.chunk.js",
-    "main.js.map": "/sumit3107.github.io/profilecompare/static/js/main.9f92bb12.chunk.js.map",
-    "runtime-main.js": "/sumit3107.github.io/profilecompare/static/js/runtime-main.46d1e58e.js",
-    "runtime-main.js.map": "/sumit3107.github.io/profilecompare/static/js/runtime-main.46d1e58e.js.map",
-    "static/css/2.6df4c8f8.chunk.css": "/sumit3107.github.io/profilecompare/static/css/2.6df4c8f8.chunk.css",
-    "static/js/2.10a8bd6d.chunk.js": "/sumit3107.github.io/profilecompare/static/js/2.10a8bd6d.chunk.js",
-    "static/js/2.10a8bd6d.chunk.js.map": "/sumit3107.github.io/profilecompare/static/js/2.10a8bd6d.chunk.js.map",
-    "index.html": "/sumit3107.github.io/profilecompare/index.html",
-    "precache-manifest.90904156647cbdc1019e9985079b0703.js": "/sumit3107.github.io/profilecompare/precache-manifest.90904156647cbdc1019e9985079b0703.js",
-    "service-worker.js": "/sumit3107.github.io/profilecompare/service-worker.js",
-    "static/css/2.6df4c8f8.chunk.css.map": "/sumit3107.github.io/profilecompare/static/css/2.6df4c8f8.chunk.css.map",
-    "static/css/main.9ec8fe34.chunk.css.map": "/sumit3107.github.io/profilecompare/static/css/main.9ec8fe34.chunk.css.map",
-    "static/js/2.10a8bd6d.chunk.js.LICENSE.txt": "/sumit3107.github.io/profilecompare/static/js/2.10a8bd6d.chunk.js.LICENSE.txt"
+    "main.css": "/profilecompare/static/css/main.9ec8fe34.chunk.css",
+    "main.js": "/profilecompare/static/js/main.897d4bff.chunk.js",
+    "main.js.map": "/profilecompare/static/js/main.897d4bff.chunk.js.map",
+    "runtime-main.js": "/profilecompare/static/js/runtime-main.12260203.js",
+    "runtime-main.js.map": "/profilecompare/static/js/runtime-main.12260203.js.map",
+    "static/css/2.6df4c8f8.chunk.css": "/profilecompare/static/css/2.6df4c8f8.chunk.css",
+    "static/js/2.e9be1b53.chunk.js": "/profilecompare/static/js/2.e9be1b53.chunk.js",
+    "static/js/2.e9be1b53.chunk.js.map": "/profilecompare/static/js/2.e9be1b53.chunk.js.map",
+    "index.html": "/profilecompare/index.html",
+    "precache-manifest.1c60761f2b9b29a07a39dcce21bd829d.js": "/profilecompare/precache-manifest.1c60761f2b9b29a07a39dcce21bd829d.js",
+    "service-worker.js": "/profilecompare/service-worker.js",
+    "static/css/2.6df4c8f8.chunk.css.map": "/profilecompare/static/css/2.6df4c8f8.chunk.css.map",
+    "static/css/main.9ec8fe34.chunk.css.map": "/profilecompare/static/css/main.9ec8fe34.chunk.css.map",
+    "static/js/2.e9be1b53.chunk.js.LICENSE.txt": "/profilecompare/static/js/2.e9be1b53.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.46d1e58e.js",
+    "static/js/runtime-main.12260203.js",
     "static/css/2.6df4c8f8.chunk.css",
-    "static/js/2.10a8bd6d.chunk.js",
+    "static/js/2.e9be1b53.chunk.js",
     "static/css/main.9ec8fe34.chunk.css",
-    "static/js/main.9f92bb12.chunk.js"
+    "static/js/main.897d4bff.chunk.js"
   ]
 }
